@@ -1,5 +1,5 @@
 <launch>
-  <include file="$(find foxglove_bridge)/launch/foxglove_bridge.launch" />
+  <!-- <include file="$(find foxglove_bridge)/launch/foxglove_bridge.launch" /> -->
   <!-- <include file="$(find odin_ros_driver)/launch/odin1_ros1.launch" /> -->
 
   <arg name="map_topic" default="/map" />

@@ -58,7 +58,9 @@ sudo apt install -y \
     ros-${ROS_DISTRO}-tf2-geometry-msgs \
     ros-${ROS_DISTRO}-cv-bridge \
     ros-${ROS_DISTRO}-tf2-eigen \
-    ros-${ROS_DISTRO}-pcl-ros
+    ros-${ROS_DISTRO}-pcl-ros \
+    ros-${ROS_DISTRO}-move-base \
+    ros-${ROS_DISTRO}-dwa-local-planner
 ```
 
 ## 3. Install Unitree Go2 SDK
@@ -76,18 +78,20 @@ conda install -n base -c conda-forge mamba
 ``` shell
 export ROS_DISTRO=noetic
 mamba create -n neupan -y
-conda activate neupan
+mamba activate neupan
 conda config --env --add channels conda-forge
 conda config --env --remove channels defaults
 conda config --env --add channels robostack-${ROS_DISTRO}
-
-mamba install -n neupan ros-${ROS_DISTRO}-desktop colcon-common-extensions catkin_tools rosdep -y
+mamba install -n neupan ros-${ROS_DISTRO}-desktop colcon-common-extensions catkin_tools rosdep ros-dev-tools -y
 mamba run -n neupan pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
 ```
 
 **For different Jetson users**: Replace the PyTorch install with a compatible .whl from [NVIDIA's Jeston PyTorch Page](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048).
 
 ## 6. Build the ROS Workspace 
+
+There are two methods for compiling workspaces: one involves using ROS within a conda environment, and the other involves ROS installed system-wide. If you need to compile using the system-installed ROS, ensure all conda environments are deactivated by running `mamba deactivate`.
+
 ``` shell
 cd ros_ws
 source /opt/ros/${ROS_DISTRO}/setup.bash
